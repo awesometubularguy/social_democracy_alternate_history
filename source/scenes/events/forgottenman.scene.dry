@@ -4,7 +4,7 @@ tags: event
 max-visits: 1
 new-page: true
 face-image: https://i.imgur.com/k8CaaRC.jpeg
-view-if: year = 1928 and month = 7
+view-if: year = 1928 and month >= 7
 
 = He is behind the tree.
 
