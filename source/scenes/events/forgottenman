@@ -1,0 +1,19 @@
+title: The Forgotten Man
+subtitle: A political question
+tags: event, govt_affairs
+is-card: true
+on-arrival: panzerkreuzer_seen = 1
+face-image: https://i.imgur.com/k8CaaRC.jpeg
+view-if: panzerkreuzer_seen = 0 and year = 1928 and month >= 8
+
+= He is behind the tree.
+
+Well, there is a man here.
+He offered you something.
+
+- @vote_yes: You received an Egg.
+
+@vote_yes
+on-arrival: left_dissent += 10; labor_dissent += 5; center_dissent += 5; reformist_dissent += 5; neorevisionist_dissent += 5; panzerkreuzer_funded = 1; kpd_coalition_dissent += 1; kpd_relation -= 6; workers_spd -= 3
+
+Well, there is not a man here.
