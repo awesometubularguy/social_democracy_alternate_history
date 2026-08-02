@@ -4,7 +4,7 @@ is-card: true
 view-if: year = 1928 and month >= 2
 on-arrival: month_actions += 1; crisis_program_timer = 5
 card-image: img/bankrun.jpg
-tags: party_affairs, govt_affairs
+tags: event
 
 = Addressing the Economic Crisis
 
