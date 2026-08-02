@@ -41,6 +41,7 @@ on-arrival: center_dissent += 10; left_dissent += 5; labor_strength += 5; wtb_su
 go-to: plan_adopted if wtb_support >= 3; plan_support if wtb_support < 3
 
 @plan_support
+go-to: @support_weirdroute-one
 
 WTB plan? I...
 
