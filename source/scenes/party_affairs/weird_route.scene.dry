@@ -47,8 +47,11 @@ WTB plan? I...
 
 I don't know that economic plan.
 
+- @support_weirdroute-one: Proceed.
+
 @support_weirdroute-one
-subtitle: Proceed.
+
+I... I already told you, I don't know that economic plan.
   
 @plan_adopted
 on-arrival: wtb_adopted = 1; labor_dissent -= 15; reformist_dissent -= 10; labor_strength += 10; center_strength -= 10; center_dissent += 20; left_dissent += 5; economic_plan = 1
